@@ -140,3 +140,22 @@ a {
     font-size: 28px;
   }
 }
+@media screen and (min-width: 0px) and (max-width:374px) {
+  .pagetitle {
+    font-size: 11px;
+  }
+
+  .pagetitle .under {
+    width: 150px;
+
+  }
+
+  .card {
+    padding: 60px 70px 60px 70px;
+
+  }
+
+  .card p {
+    font-size: 28px;
+  }
+}
