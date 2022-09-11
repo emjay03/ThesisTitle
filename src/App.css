@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e2e2e2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  padding: 4rem 8rem;
+
+  border: 3px solid #f8f8f8;
+  width: 50%;
+  height: 30%;
+  border-radius: 7% 2% 5% 4% / 2% 11% 2% 2%;
+  text-transform: uppercase;
+
+  background: #f8f8f8;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.card p {
+  font-size: 35px;
+  color: #242424;
+}
+
+.pagetitle {
+
+  padding: 30px;
+  font-size: 20px;
+  color: #242424;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagetitle .under {
+
+  width: 400px;
+
+  border-bottom: 4px solid#2b2bd7;
+
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  width: 30%;
+  height: 10%;
+}
+
+.button button {
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #3b3bda;
+  border: none;
+  color: white;
+  padding: 20px 60px 20px 60px;
+}
+
+.button button:hover {
+  background-color: #2b2bd7;
+}
+
+.footer {
+
+  font-size: 18px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #2b2bd7;
+}
+
+@media screen and (min-width:501px) and (max-width:700px) {
+  .pagetitle {
+    font-size: 17px;
+  }
+
+  .pagetitle .under {
+    width: 220px;
+
+  }
+
+  .card {
+    padding: 60px 100px 60px 100px;
+
+  }
+
+  .card p {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width:500px) {
+  .pagetitle {
+    font-size: 12.5px;
+  }
+
+  .pagetitle .under {
+    width: 180px;
+
+  }
+
+  .card {
+    padding: 60px 80px 60px 80px;
+
+  }
+
+  .card p {
+    font-size: 28px;
+  }
+}
