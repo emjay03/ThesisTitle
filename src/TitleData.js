@@ -35,7 +35,7 @@ const TitleData=[
     thesistitle:" Android Mobile Quiz Game"
 },
 {
-    thesistitle:"Application of Random Forest Algorithm in Biomarker Discovery for Cancer Detection"
+    thesistitle:"SMS Marketing Software"
 },
 {
     thesistitle:"Electronic Police Clearance System"
@@ -96,7 +96,7 @@ const TitleData=[
     thesistitle:"Android Based IQ Test App with Score Monitoring"
 },
 {
-    thesistitle:"Web and Mobile Based Test Banking System with Item Analysis using PHP, MySQL and Framework7"
+    thesistitle:"Online Air Ticket Reservation System"
 },
 
 {

@@ -17,7 +17,7 @@ function App() {
    <>
   <div className='container'>
    <div className='pagetitle'>
-      <h1>Generate your thesis title</h1>
+      <h1>Thesis Title Generator</h1>
       <div className='under'></div>
     </div>
    
